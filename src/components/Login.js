@@ -13,7 +13,7 @@ const Login = (props) => (
                     setSubmitting(false);
                 } else {
                     alert("Email id / password are wrong");
-                    props.history.push('/test');
+                    props.history.push('/login');
                 }
             }, 500);
         }}
